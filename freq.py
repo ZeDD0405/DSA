@@ -10,7 +10,9 @@ for i in n:              # i is VALUE
         freq[i] = 1
 
 for key in freq:
-    print(key, freq[key])
+    print(freq[key])
+
+
 
 
 n = [1,2,4,5,7,8,5,4,7,3,6,3,7,0,5,8,8]
@@ -24,4 +26,4 @@ for i in range(x):       # i is INDEX
         freq[n[i]] = 1
 
 for key in freq:
-    print(key, freq[key])
+    print(freq[key])
